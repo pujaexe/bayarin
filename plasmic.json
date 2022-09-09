@@ -292,6 +292,11 @@
           "id": "gvP_LbGew",
           "name": "bg-sample.png",
           "filePath": "../public/plasmic/alphapay/images/bgSamplepng.png"
+        },
+        {
+          "id": "iIESQg7QM",
+          "name": "image 4",
+          "filePath": "../public/plasmic/alphapay/images/image4.png"
         }
       ],
       "indirect": false,

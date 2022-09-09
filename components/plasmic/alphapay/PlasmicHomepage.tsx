@@ -86,7 +86,27 @@ function PlasmicHomepage__RenderFunc(props: {
 
   return (
     <React.Fragment>
-      <Head></Head>
+      <Head>
+        <meta name="twitter:card" content="summary_large_image" />
+        <title key="title">{"Bayar.in"}</title>
+        <meta key="og:title" property="og:title" content={"Bayar.in"} />
+        <meta key="twitter:title" name="twitter:title" content={"Bayar.in"} />
+
+        <meta
+          key="og:image"
+          property="og:image"
+          content={
+            "https://site-assets.plasmic.app/443940b30f67a7b9f47438d7d1250cdf.png"
+          }
+        />
+        <meta
+          key="twitter:image"
+          name="twitter:image"
+          content={
+            "https://site-assets.plasmic.app/443940b30f67a7b9f47438d7d1250cdf.png"
+          }
+        />
+      </Head>
 
       <style>{`
         body {
