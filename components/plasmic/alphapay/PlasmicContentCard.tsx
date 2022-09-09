@@ -62,7 +62,7 @@ export const PlasmicContentCard__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicContentCard__OverridesType = {
   root?: p.Flex<"div">;
-  h3?: p.Flex<"h3">;
+  h4?: p.Flex<"h4">;
   form?: p.Flex<"form">;
   itemsBuyCard?: p.Flex<typeof ItemsBuyCard>;
   img?: p.Flex<typeof p.PlasmicImg>;
@@ -122,18 +122,18 @@ function PlasmicContentCard__RenderFunc(props: {
         sty.root
       )}
     >
-      <h3
-        data-plasmic-name={"h3"}
-        data-plasmic-override={overrides.h3}
+      <h4
+        data-plasmic-name={"h4"}
+        data-plasmic-override={overrides.h4}
         className={classNames(
           projectcss.all,
-          projectcss.h3,
+          projectcss.h4,
           projectcss.__wab_text,
-          sty.h3
+          sty.h4
         )}
       >
         {"Ringkasan Pembelian"}
-      </h3>
+      </h4>
 
       <p.Stack
         as={"form"}
@@ -168,7 +168,7 @@ function PlasmicContentCard__RenderFunc(props: {
             displayHeight={
               hasVariant(globalVariants, "screen", "mobileOnly")
                 ? ("72px" as const)
-                : ("120px" as const)
+                : ("90px" as const)
             }
             displayMaxHeight={"none" as const}
             displayMaxWidth={"100%" as const}
@@ -177,7 +177,7 @@ function PlasmicContentCard__RenderFunc(props: {
             displayWidth={
               hasVariant(globalVariants, "screen", "mobileOnly")
                 ? ("72px" as const)
-                : ("120px" as const)
+                : ("90px" as const)
             }
             loading={"lazy" as const}
             src={{
@@ -326,7 +326,7 @@ function PlasmicContentCard__RenderFunc(props: {
 const PlasmicDescendants = {
   root: [
     "root",
-    "h3",
+    "h4",
     "form",
     "itemsBuyCard",
     "img",
@@ -338,7 +338,7 @@ const PlasmicDescendants = {
     "infoCard",
     "link"
   ],
-  h3: ["h3"],
+  h4: ["h4"],
   form: [
     "form",
     "itemsBuyCard",
@@ -365,7 +365,7 @@ type DescendantsType<T extends NodeNameType> =
   typeof PlasmicDescendants[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  h3: "h3";
+  h4: "h4";
   form: "form";
   itemsBuyCard: typeof ItemsBuyCard;
   img: typeof p.PlasmicImg;
@@ -439,7 +439,7 @@ export const PlasmicContentCard = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    h3: makeNodeComponent("h3"),
+    h4: makeNodeComponent("h4"),
     form: makeNodeComponent("form"),
     itemsBuyCard: makeNodeComponent("itemsBuyCard"),
     img: makeNodeComponent("img"),

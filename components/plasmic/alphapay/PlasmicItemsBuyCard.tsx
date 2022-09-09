@@ -65,7 +65,7 @@ export type PlasmicItemsBuyCard__OverridesType = {
   col?: p.Flex<"div">;
   itemDetails?: p.Flex<"div">;
   titleWrapper?: p.Flex<"div">;
-  h4?: p.Flex<"h4">;
+  h5?: p.Flex<"h5">;
   link?: p.Flex<"a"> & Partial<LinkProps>;
   footer2?: p.Flex<"div">;
   leftTitle2?: p.Flex<"div">;
@@ -156,18 +156,18 @@ function PlasmicItemsBuyCard__RenderFunc(props: {
               hasGap={true}
               className={classNames(projectcss.all, sty.titleWrapper)}
             >
-              <h4
-                data-plasmic-name={"h4"}
-                data-plasmic-override={overrides.h4}
+              <h5
+                data-plasmic-name={"h5"}
+                data-plasmic-override={overrides.h5}
                 className={classNames(
                   projectcss.all,
-                  projectcss.h4,
+                  projectcss.h5,
                   projectcss.__wab_text,
-                  sty.h4
+                  sty.h5
                 )}
               >
                 {"Tato Super Geday"}
-              </h4>
+              </h5>
 
               <p.PlasmicLink
                 data-plasmic-name={"link"}
@@ -281,17 +281,17 @@ const PlasmicDescendants = {
     "col",
     "itemDetails",
     "titleWrapper",
-    "h4",
+    "h5",
     "link",
     "footer2",
     "leftTitle2",
     "rightContent2",
     "quotes"
   ],
-  col: ["col", "itemDetails", "titleWrapper", "h4", "link"],
-  itemDetails: ["itemDetails", "titleWrapper", "h4", "link"],
-  titleWrapper: ["titleWrapper", "h4", "link"],
-  h4: ["h4"],
+  col: ["col", "itemDetails", "titleWrapper", "h5", "link"],
+  itemDetails: ["itemDetails", "titleWrapper", "h5", "link"],
+  titleWrapper: ["titleWrapper", "h5", "link"],
+  h5: ["h5"],
   link: ["link"],
   footer2: ["footer2", "leftTitle2", "rightContent2", "quotes"],
   leftTitle2: ["leftTitle2"],
@@ -306,7 +306,7 @@ type NodeDefaultElementType = {
   col: "div";
   itemDetails: "div";
   titleWrapper: "div";
-  h4: "h4";
+  h5: "h5";
   link: "a";
   footer2: "div";
   leftTitle2: "div";
@@ -378,7 +378,7 @@ export const PlasmicItemsBuyCard = Object.assign(
     col: makeNodeComponent("col"),
     itemDetails: makeNodeComponent("itemDetails"),
     titleWrapper: makeNodeComponent("titleWrapper"),
-    h4: makeNodeComponent("h4"),
+    h5: makeNodeComponent("h5"),
     link: makeNodeComponent("link"),
     footer2: makeNodeComponent("footer2"),
     leftTitle2: makeNodeComponent("leftTitle2"),

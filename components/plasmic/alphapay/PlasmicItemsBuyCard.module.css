@@ -108,14 +108,14 @@
   > img {
   margin-top: 4px;
 }
-.h4 {
+.h5 {
   width: 100%;
   height: auto;
   max-width: 800px;
   min-width: 0;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .h4 {
+  .h5 {
     font-size: 18px;
   }
 }

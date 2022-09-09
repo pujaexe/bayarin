@@ -180,7 +180,7 @@
   height: 1em;
   flex-shrink: 0;
 }
-.h3 {
+.h4 {
   width: 100%;
   height: auto;
   max-width: 800px;
@@ -189,11 +189,11 @@
   padding: var(--token-ydJ_QzM70);
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .h3 {
+  .h4 {
     font-size: 24px;
   }
 }
-.h5 {
+.h6 {
   position: relative;
   width: 100%;
   height: auto;
@@ -233,7 +233,7 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
-  padding: 24px var(--token-wp5Q1Gov6) 0px;
+  padding: 0px var(--token-wp5Q1Gov6);
 }
 .inputJumlahBeli > :global(.__wab_flex-container) {
   flex-direction: column;

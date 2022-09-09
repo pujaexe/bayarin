@@ -62,9 +62,9 @@ export type PlasmicManualTransfer__OverridesType = {
   contentWrapper?: p.Flex<"div">;
   link?: p.Flex<"a"> & Partial<LinkProps>;
   svg?: p.Flex<"svg">;
-  h5?: p.Flex<"h5">;
+  h6?: p.Flex<"h6">;
   img?: p.Flex<typeof p.PlasmicImg>;
-  h4?: p.Flex<"h4">;
+  h3?: p.Flex<"h3">;
   button?: p.Flex<"button">;
 };
 
@@ -172,33 +172,33 @@ function PlasmicManualTransfer__RenderFunc(props: {
                       </p.PlasmicLink>
                     ) : null}
 
-                    <h3
+                    <h4
                       className={classNames(
                         projectcss.all,
-                        projectcss.h3,
+                        projectcss.h4,
                         projectcss.__wab_text,
-                        sty.h3___0Ij9
+                        sty.h4___0Ij9
                       )}
                     >
                       {"Bank Transfer"}
-                    </h3>
+                    </h4>
                   </div>
                 ) : null}
 
-                <h5
-                  data-plasmic-name={"h5"}
-                  data-plasmic-override={overrides.h5}
+                <h6
+                  data-plasmic-name={"h6"}
+                  data-plasmic-override={overrides.h6}
                   className={classNames(
                     projectcss.all,
-                    projectcss.h5,
+                    projectcss.h6,
                     projectcss.__wab_text,
-                    sty.h5
+                    sty.h6
                   )}
                 >
                   {
                     "Silahkan lakukan pembayaran melalui ke rekening di bawah ini"
                   }
-                </h5>
+                </h6>
 
                 <p.Stack
                   as={"div"}
@@ -229,13 +229,11 @@ function PlasmicManualTransfer__RenderFunc(props: {
                     className={classNames(projectcss.all, sty.freeBox__oVkPj)}
                   >
                     <h4
-                      data-plasmic-name={"h4"}
-                      data-plasmic-override={overrides.h4}
                       className={classNames(
                         projectcss.all,
                         projectcss.h4,
                         projectcss.__wab_text,
-                        sty.h4
+                        sty.h4__jqsvx
                       )}
                     >
                       {"17900003"}
@@ -276,11 +274,13 @@ function PlasmicManualTransfer__RenderFunc(props: {
                     className={classNames(projectcss.all, sty.freeBox__wbZEy)}
                   >
                     <h3
+                      data-plasmic-name={"h3"}
+                      data-plasmic-override={overrides.h3}
                       className={classNames(
                         projectcss.all,
                         projectcss.h3,
                         projectcss.__wab_text,
-                        sty.h3___9QvWh
+                        sty.h3
                       )}
                     >
                       {"187.000 IDR"}
@@ -324,9 +324,9 @@ const PlasmicDescendants = {
     "contentWrapper",
     "link",
     "svg",
-    "h5",
+    "h6",
     "img",
-    "h4",
+    "h3",
     "button"
   ],
   navbar: ["navbar"],
@@ -335,25 +335,25 @@ const PlasmicDescendants = {
     "contentWrapper",
     "link",
     "svg",
-    "h5",
+    "h6",
     "img",
-    "h4",
+    "h3",
     "button"
   ],
   contentWrapper: [
     "contentWrapper",
     "link",
     "svg",
-    "h5",
+    "h6",
     "img",
-    "h4",
+    "h3",
     "button"
   ],
   link: ["link", "svg"],
   svg: ["svg"],
-  h5: ["h5"],
+  h6: ["h6"],
   img: ["img"],
-  h4: ["h4"],
+  h3: ["h3"],
   button: ["button"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -366,9 +366,9 @@ type NodeDefaultElementType = {
   contentWrapper: "div";
   link: "a";
   svg: "svg";
-  h5: "h5";
+  h6: "h6";
   img: typeof p.PlasmicImg;
-  h4: "h4";
+  h3: "h3";
   button: "button";
 };
 
@@ -438,9 +438,9 @@ export const PlasmicManualTransfer = Object.assign(
     contentWrapper: makeNodeComponent("contentWrapper"),
     link: makeNodeComponent("link"),
     svg: makeNodeComponent("svg"),
-    h5: makeNodeComponent("h5"),
+    h6: makeNodeComponent("h6"),
     img: makeNodeComponent("img"),
-    h4: makeNodeComponent("h4"),
+    h3: makeNodeComponent("h3"),
     button: makeNodeComponent("button"),
 
     // Metadata about props expected for PlasmicManualTransfer

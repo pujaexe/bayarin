@@ -61,8 +61,8 @@ export type PlasmicMailsignUp__OverridesType = {
   section?: p.Flex<"section">;
   contentWrapper?: p.Flex<"div">;
   svg?: p.Flex<"svg">;
-  h3?: p.Flex<"h3">;
-  h5?: p.Flex<"h5">;
+  h4?: p.Flex<"h4">;
+  h6?: p.Flex<"h6">;
   form?: p.Flex<"form">;
   inputJumlahBeli?: p.Flex<"div">;
   label?: p.Flex<"label">;
@@ -174,33 +174,33 @@ function PlasmicMailsignUp__RenderFunc(props: {
                       </p.PlasmicLink>
                     ) : null}
 
-                    <h3
-                      data-plasmic-name={"h3"}
-                      data-plasmic-override={overrides.h3}
+                    <h4
+                      data-plasmic-name={"h4"}
+                      data-plasmic-override={overrides.h4}
                       className={classNames(
                         projectcss.all,
-                        projectcss.h3,
+                        projectcss.h4,
                         projectcss.__wab_text,
-                        sty.h3
+                        sty.h4
                       )}
                     >
                       {"Email"}
-                    </h3>
+                    </h4>
                   </div>
                 ) : null}
 
-                <h5
-                  data-plasmic-name={"h5"}
-                  data-plasmic-override={overrides.h5}
+                <h6
+                  data-plasmic-name={"h6"}
+                  data-plasmic-override={overrides.h6}
                   className={classNames(
                     projectcss.all,
-                    projectcss.h5,
+                    projectcss.h6,
                     projectcss.__wab_text,
-                    sty.h5
+                    sty.h6
                   )}
                 >
                   {"Masukan alamat email untuk melanjutkan proses transaksi"}
-                </h5>
+                </h6>
 
                 <p.Stack
                   as={"form"}
@@ -334,8 +334,8 @@ const PlasmicDescendants = {
     "section",
     "contentWrapper",
     "svg",
-    "h3",
-    "h5",
+    "h4",
+    "h6",
     "form",
     "inputJumlahBeli",
     "label",
@@ -349,8 +349,8 @@ const PlasmicDescendants = {
     "section",
     "contentWrapper",
     "svg",
-    "h3",
-    "h5",
+    "h4",
+    "h6",
     "form",
     "inputJumlahBeli",
     "label",
@@ -362,8 +362,8 @@ const PlasmicDescendants = {
   contentWrapper: [
     "contentWrapper",
     "svg",
-    "h3",
-    "h5",
+    "h4",
+    "h6",
     "form",
     "inputJumlahBeli",
     "label",
@@ -373,8 +373,8 @@ const PlasmicDescendants = {
     "img"
   ],
   svg: ["svg"],
-  h3: ["h3"],
-  h5: ["h5"],
+  h4: ["h4"],
+  h6: ["h6"],
   form: [
     "form",
     "inputJumlahBeli",
@@ -399,8 +399,8 @@ type NodeDefaultElementType = {
   section: "section";
   contentWrapper: "div";
   svg: "svg";
-  h3: "h3";
-  h5: "h5";
+  h4: "h4";
+  h6: "h6";
   form: "form";
   inputJumlahBeli: "div";
   label: "label";
@@ -474,8 +474,8 @@ export const PlasmicMailsignUp = Object.assign(
     section: makeNodeComponent("section"),
     contentWrapper: makeNodeComponent("contentWrapper"),
     svg: makeNodeComponent("svg"),
-    h3: makeNodeComponent("h3"),
-    h5: makeNodeComponent("h5"),
+    h4: makeNodeComponent("h4"),
+    h6: makeNodeComponent("h6"),
     form: makeNodeComponent("form"),
     inputJumlahBeli: makeNodeComponent("inputJumlahBeli"),
     label: makeNodeComponent("label"),

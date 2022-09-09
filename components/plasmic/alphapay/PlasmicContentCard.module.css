@@ -52,7 +52,7 @@
     margin-top: var(--token-ydJ_QzM70);
   }
 }
-.h3 {
+.h4 {
   position: relative;
   width: 100%;
   height: auto;
@@ -62,7 +62,7 @@
   padding: var(--token-ydJ_QzM70);
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .h3 {
+  .h4 {
     font-size: 24px;
   }
 }
@@ -98,8 +98,8 @@
   position: relative;
   object-fit: cover;
   max-width: 100%;
-  width: 120px;
-  height: 120px;
+  width: 90px;
+  height: 90px;
   border-radius: 12px;
 }
 .img > picture > img {

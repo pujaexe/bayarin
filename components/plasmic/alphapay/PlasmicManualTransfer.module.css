@@ -177,7 +177,7 @@
   height: 24px;
   flex-shrink: 0;
 }
-.h3___0Ij9 {
+.h4___0Ij9 {
   width: 100%;
   height: auto;
   max-width: 800px;
@@ -186,11 +186,11 @@
   padding: var(--token-ydJ_QzM70);
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .h3___0Ij9 {
+  .h4___0Ij9 {
     font-size: 24px;
   }
 }
-.h5 {
+.h6 {
   position: relative;
   width: 100%;
   height: auto;
@@ -249,7 +249,7 @@
   min-width: 0;
   padding: 0px;
 }
-.h4 {
+.h4__jqsvx {
   position: relative;
   width: 100%;
   height: auto;
@@ -339,7 +339,7 @@
   > img {
   margin-top: var(--token-_fIPDH-wy);
 }
-.h3___9QvWh {
+.h3 {
   position: relative;
   width: 100%;
   height: auto;

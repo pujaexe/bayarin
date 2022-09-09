@@ -178,7 +178,7 @@
   height: 24px;
   flex-shrink: 0;
 }
-.h3 {
+.h4 {
   width: 100%;
   height: auto;
   max-width: 800px;
@@ -187,11 +187,11 @@
   padding: var(--token-ydJ_QzM70);
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .h3 {
+  .h4 {
     font-size: 24px;
   }
 }
-.h5 {
+.h6 {
   position: relative;
   width: 100%;
   height: auto;

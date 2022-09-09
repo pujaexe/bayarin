@@ -61,8 +61,8 @@ export type PlasmicOtPmail__OverridesType = {
   section?: p.Flex<"section">;
   contentWrapper?: p.Flex<"div">;
   svg?: p.Flex<"svg">;
-  h3?: p.Flex<"h3">;
-  h5?: p.Flex<"h5">;
+  h4?: p.Flex<"h4">;
+  h6?: p.Flex<"h6">;
   form?: p.Flex<"form">;
   inputJumlahBeli?: p.Flex<"div">;
   span?: p.Flex<"span">;
@@ -171,29 +171,29 @@ function PlasmicOtPmail__RenderFunc(props: {
                       </p.PlasmicLink>
                     ) : null}
 
-                    <h3
-                      data-plasmic-name={"h3"}
-                      data-plasmic-override={overrides.h3}
+                    <h4
+                      data-plasmic-name={"h4"}
+                      data-plasmic-override={overrides.h4}
                       className={classNames(
                         projectcss.all,
-                        projectcss.h3,
+                        projectcss.h4,
                         projectcss.__wab_text,
-                        sty.h3
+                        sty.h4
                       )}
                     >
                       {"OTP"}
-                    </h3>
+                    </h4>
                   </div>
                 ) : null}
 
-                <h5
-                  data-plasmic-name={"h5"}
-                  data-plasmic-override={overrides.h5}
+                <h6
+                  data-plasmic-name={"h6"}
+                  data-plasmic-override={overrides.h6}
                   className={classNames(
                     projectcss.all,
-                    projectcss.h5,
+                    projectcss.h6,
                     projectcss.__wab_text,
-                    sty.h5
+                    sty.h6
                   )}
                 >
                   <React.Fragment>
@@ -209,7 +209,7 @@ function PlasmicOtPmail__RenderFunc(props: {
                       {"user@mail.com"}
                     </span>
                   </React.Fragment>
-                </h5>
+                </h6>
 
                 <p.Stack
                   as={"form"}
@@ -350,8 +350,8 @@ const PlasmicDescendants = {
     "section",
     "contentWrapper",
     "svg",
-    "h3",
-    "h5",
+    "h4",
+    "h6",
     "form",
     "inputJumlahBeli",
     "span",
@@ -362,8 +362,8 @@ const PlasmicDescendants = {
     "section",
     "contentWrapper",
     "svg",
-    "h3",
-    "h5",
+    "h4",
+    "h6",
     "form",
     "inputJumlahBeli",
     "span",
@@ -372,16 +372,16 @@ const PlasmicDescendants = {
   contentWrapper: [
     "contentWrapper",
     "svg",
-    "h3",
-    "h5",
+    "h4",
+    "h6",
     "form",
     "inputJumlahBeli",
     "span",
     "text"
   ],
   svg: ["svg"],
-  h3: ["h3"],
-  h5: ["h5"],
+  h4: ["h4"],
+  h6: ["h6"],
   form: ["form", "inputJumlahBeli", "span"],
   inputJumlahBeli: ["inputJumlahBeli"],
   span: ["span"],
@@ -396,8 +396,8 @@ type NodeDefaultElementType = {
   section: "section";
   contentWrapper: "div";
   svg: "svg";
-  h3: "h3";
-  h5: "h5";
+  h4: "h4";
+  h6: "h6";
   form: "form";
   inputJumlahBeli: "div";
   span: "span";
@@ -469,8 +469,8 @@ export const PlasmicOtPmail = Object.assign(
     section: makeNodeComponent("section"),
     contentWrapper: makeNodeComponent("contentWrapper"),
     svg: makeNodeComponent("svg"),
-    h3: makeNodeComponent("h3"),
-    h5: makeNodeComponent("h5"),
+    h4: makeNodeComponent("h4"),
+    h6: makeNodeComponent("h6"),
     form: makeNodeComponent("form"),
     inputJumlahBeli: makeNodeComponent("inputJumlahBeli"),
     span: makeNodeComponent("span"),
