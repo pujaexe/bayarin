@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -287,6 +287,11 @@
           "id": "dHz59J4Ye",
           "name": "image 3",
           "filePath": "../public/plasmic/alphapay/images/image3.png"
+        },
+        {
+          "id": "gvP_LbGew",
+          "name": "bg-sample.png",
+          "filePath": "../public/plasmic/alphapay/images/bgSamplepng.png"
         }
       ],
       "indirect": false,

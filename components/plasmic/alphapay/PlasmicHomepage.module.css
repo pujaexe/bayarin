@@ -1,7 +1,8 @@
 .root {
   display: flex;
   flex-direction: column;
-  background: var(--token-efPS-BymV);
+  background: url("/plasmic/alphapay/images/bgSamplepng.png") top 50% left 50% / cover repeat,
+    var(--token-efPS-BymV);
   flex-column-gap: 0px;
   position: relative;
   width: 100%;
