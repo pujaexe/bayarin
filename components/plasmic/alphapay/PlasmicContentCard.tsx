@@ -63,13 +63,13 @@ export const PlasmicContentCard__ArgProps = new Array<ArgPropType>();
 export type PlasmicContentCard__OverridesType = {
   root?: p.Flex<"div">;
   h4?: p.Flex<"h4">;
-  form?: p.Flex<"form">;
   itemsBuyCard?: p.Flex<typeof ItemsBuyCard>;
   img?: p.Flex<typeof p.PlasmicImg>;
   inputJumlahBeli?: p.Flex<"div">;
   freeBox?: p.Flex<"div">;
   buttonMinus?: p.Flex<"button">;
   buttonPlus?: p.Flex<"button">;
+  form?: p.Flex<"form">;
   inputJumlahBeli2?: p.Flex<"div">;
   infoCard?: p.Flex<typeof InfoCard>;
   link?: p.Flex<"a"> & Partial<LinkProps>;
@@ -135,6 +135,122 @@ function PlasmicContentCard__RenderFunc(props: {
         {"Ringkasan Pembelian"}
       </h4>
 
+      <ItemsBuyCard
+        data-plasmic-name={"itemsBuyCard"}
+        data-plasmic-override={overrides.itemsBuyCard}
+        className={classNames("__wab_instance", sty.itemsBuyCard)}
+        slot={
+          <div
+            className={classNames(
+              projectcss.all,
+              projectcss.__wab_text,
+              sty.text__enchq
+            )}
+          >
+            {hasVariant(globalVariants, "screen", "mobileOnly")
+              ? "https://buy.getkupo..."
+              : "https://buy.getkupon.io/damantraz"}
+          </div>
+        }
+      >
+        <p.PlasmicImg
+          data-plasmic-name={"img"}
+          data-plasmic-override={overrides.img}
+          alt={""}
+          className={classNames(sty.img)}
+          displayHeight={
+            hasVariant(globalVariants, "screen", "mobileOnly")
+              ? ("72px" as const)
+              : ("90px" as const)
+          }
+          displayMaxHeight={"none" as const}
+          displayMaxWidth={"100%" as const}
+          displayMinHeight={"0" as const}
+          displayMinWidth={"0" as const}
+          displayWidth={
+            hasVariant(globalVariants, "screen", "mobileOnly")
+              ? ("72px" as const)
+              : ("90px" as const)
+          }
+          loading={"lazy" as const}
+          src={{
+            src: "/plasmic/alphapay/images/image.png",
+            fullWidth: 1080,
+            fullHeight: 1350,
+            aspectRatio: undefined
+          }}
+        />
+      </ItemsBuyCard>
+
+      <p.Stack
+        as={"div"}
+        data-plasmic-name={"inputJumlahBeli"}
+        data-plasmic-override={overrides.inputJumlahBeli}
+        hasGap={true}
+        className={classNames(projectcss.all, sty.inputJumlahBeli)}
+      >
+        <label
+          className={classNames(
+            projectcss.all,
+            projectcss.__wab_text,
+            sty.label__okxEd
+          )}
+        >
+          {"Jumlah Beli"}
+        </label>
+
+        <p.Stack
+          as={"div"}
+          data-plasmic-name={"freeBox"}
+          data-plasmic-override={overrides.freeBox}
+          hasGap={true}
+          className={classNames(projectcss.all, sty.freeBox)}
+        >
+          {true ? (
+            <button
+              data-plasmic-name={"buttonMinus"}
+              data-plasmic-override={overrides.buttonMinus}
+              className={classNames(
+                projectcss.all,
+                projectcss.button,
+                sty.buttonMinus,
+                "" as const
+              )}
+              onClick={"{dec}" as const}
+            >
+              <MinusSvgrepoCom1SvgIcon
+                className={classNames(projectcss.all, sty.svg__n5Ohy)}
+                role={"img"}
+              />
+            </button>
+          ) : null}
+
+          <TextInput
+            className={classNames("__wab_instance", sty.textInput__yU7Wm)}
+            color={"dark" as const}
+            name={"quantity" as const}
+          />
+
+          {true ? (
+            <button
+              data-plasmic-name={"buttonPlus"}
+              data-plasmic-override={overrides.buttonPlus}
+              className={classNames(
+                projectcss.all,
+                projectcss.button,
+                sty.buttonPlus
+              )}
+              onClick={"{inc}" as const}
+            >
+              <PlusSvgrepoCom2SvgIcon
+                className={classNames(projectcss.all, sty.svg__n8Oht)}
+                role={"img"}
+              />
+            </button>
+          ) : null}
+        </p.Stack>
+      </p.Stack>
+
       <p.Stack
         as={"form"}
         data-plasmic-name={"form"}
@@ -142,118 +258,6 @@ function PlasmicContentCard__RenderFunc(props: {
         hasGap={true}
         className={classNames(projectcss.all, sty.form)}
       >
-        <ItemsBuyCard
-          data-plasmic-name={"itemsBuyCard"}
-          data-plasmic-override={overrides.itemsBuyCard}
-          className={classNames("__wab_instance", sty.itemsBuyCard)}
-          slot={
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__enchq
-              )}
-            >
-              {hasVariant(globalVariants, "screen", "mobileOnly")
-                ? "https://buy.getkupo..."
-                : "https://buy.getkupon.io/damantraz"}
-            </div>
-          }
-        >
-          <p.PlasmicImg
-            data-plasmic-name={"img"}
-            data-plasmic-override={overrides.img}
-            alt={""}
-            className={classNames(sty.img)}
-            displayHeight={
-              hasVariant(globalVariants, "screen", "mobileOnly")
-                ? ("72px" as const)
-                : ("90px" as const)
-            }
-            displayMaxHeight={"none" as const}
-            displayMaxWidth={"100%" as const}
-            displayMinHeight={"0" as const}
-            displayMinWidth={"0" as const}
-            displayWidth={
-              hasVariant(globalVariants, "screen", "mobileOnly")
-                ? ("72px" as const)
-                : ("90px" as const)
-            }
-            loading={"lazy" as const}
-            src={{
-              src: "/plasmic/alphapay/images/image.png",
-              fullWidth: 1080,
-              fullHeight: 1350,
-              aspectRatio: undefined
-            }}
-          />
-        </ItemsBuyCard>
-
-        <p.Stack
-          as={"div"}
-          data-plasmic-name={"inputJumlahBeli"}
-          data-plasmic-override={overrides.inputJumlahBeli}
-          hasGap={true}
-          className={classNames(projectcss.all, sty.inputJumlahBeli)}
-        >
-          <label
-            className={classNames(
-              projectcss.all,
-              projectcss.__wab_text,
-              sty.label__okxEd
-            )}
-          >
-            {"Jumlah Beli"}
-          </label>
-
-          <p.Stack
-            as={"div"}
-            data-plasmic-name={"freeBox"}
-            data-plasmic-override={overrides.freeBox}
-            hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox)}
-          >
-            {true ? (
-              <button
-                data-plasmic-name={"buttonMinus"}
-                data-plasmic-override={overrides.buttonMinus}
-                className={classNames(
-                  projectcss.all,
-                  projectcss.button,
-                  sty.buttonMinus
-                )}
-              >
-                <MinusSvgrepoCom1SvgIcon
-                  className={classNames(projectcss.all, sty.svg__n5Ohy)}
-                  role={"img"}
-                />
-              </button>
-            ) : null}
-
-            <TextInput
-              className={classNames("__wab_instance", sty.textInput__yU7Wm)}
-              color={"dark" as const}
-            />
-
-            {true ? (
-              <button
-                data-plasmic-name={"buttonPlus"}
-                data-plasmic-override={overrides.buttonPlus}
-                className={classNames(
-                  projectcss.all,
-                  projectcss.button,
-                  sty.buttonPlus
-                )}
-              >
-                <PlusSvgrepoCom2SvgIcon
-                  className={classNames(projectcss.all, sty.svg__n8Oht)}
-                  role={"img"}
-                />
-              </button>
-            ) : null}
-          </p.Stack>
-        </p.Stack>
-
         <p.Stack
           as={"div"}
           data-plasmic-name={"inputJumlahBeli2"}
@@ -327,35 +331,25 @@ const PlasmicDescendants = {
   root: [
     "root",
     "h4",
-    "form",
     "itemsBuyCard",
     "img",
     "inputJumlahBeli",
     "freeBox",
     "buttonMinus",
     "buttonPlus",
+    "form",
     "inputJumlahBeli2",
     "infoCard",
     "link"
   ],
   h4: ["h4"],
-  form: [
-    "form",
-    "itemsBuyCard",
-    "img",
-    "inputJumlahBeli",
-    "freeBox",
-    "buttonMinus",
-    "buttonPlus",
-    "inputJumlahBeli2",
-    "infoCard"
-  ],
   itemsBuyCard: ["itemsBuyCard", "img"],
   img: ["img"],
   inputJumlahBeli: ["inputJumlahBeli", "freeBox", "buttonMinus", "buttonPlus"],
   freeBox: ["freeBox", "buttonMinus", "buttonPlus"],
   buttonMinus: ["buttonMinus"],
   buttonPlus: ["buttonPlus"],
+  form: ["form", "inputJumlahBeli2", "infoCard"],
   inputJumlahBeli2: ["inputJumlahBeli2"],
   infoCard: ["infoCard"],
   link: ["link"]
@@ -366,13 +360,13 @@ type DescendantsType<T extends NodeNameType> =
 type NodeDefaultElementType = {
   root: "div";
   h4: "h4";
-  form: "form";
   itemsBuyCard: typeof ItemsBuyCard;
   img: typeof p.PlasmicImg;
   inputJumlahBeli: "div";
   freeBox: "div";
   buttonMinus: "button";
   buttonPlus: "button";
+  form: "form";
   inputJumlahBeli2: "div";
   infoCard: typeof InfoCard;
   link: "a";
@@ -440,13 +434,13 @@ export const PlasmicContentCard = Object.assign(
   {
     // Helper components rendering sub-elements
     h4: makeNodeComponent("h4"),
-    form: makeNodeComponent("form"),
     itemsBuyCard: makeNodeComponent("itemsBuyCard"),
     img: makeNodeComponent("img"),
     inputJumlahBeli: makeNodeComponent("inputJumlahBeli"),
     freeBox: makeNodeComponent("freeBox"),
     buttonMinus: makeNodeComponent("buttonMinus"),
     buttonPlus: makeNodeComponent("buttonPlus"),
+    form: makeNodeComponent("form"),
     inputJumlahBeli2: makeNodeComponent("inputJumlahBeli2"),
     infoCard: makeNodeComponent("infoCard"),
     link: makeNodeComponent("link"),

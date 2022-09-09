@@ -119,7 +119,9 @@ function PlasmicTextInput__RenderFunc(props: {
     () =>
       Object.assign(
         {
-          placeholder: "0" as const
+          placeholder: "0" as const,
+          value: "0" as const,
+          name: "quantity" as const
         },
         props.args
       ),
@@ -130,7 +132,7 @@ function PlasmicTextInput__RenderFunc(props: {
 
   const [isRootFocusVisibleWithin, triggerRootFocusVisibleWithinProps] =
     useTrigger("useFocusVisibleWithin", {
-      isTextInput: true
+      isTextInput: false
     });
 
   const triggers = {
@@ -243,7 +245,8 @@ function PlasmicTextInput__RenderFunc(props: {
         name={args.name}
         placeholder={args.placeholder}
         required={args.required}
-        type={"text" as const}
+        step={"1" as const}
+        type={"number" as const}
         value={args.value}
       />
 
