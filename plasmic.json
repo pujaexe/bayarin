@@ -1,0 +1,319 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "4wM4qRuToRKiXKZ116596e",
+      "projectApiToken": "l8zthVNpmXKSb65DW4KQQFGT5K5CV8SOaYxjxjgRTjtr5EMcfqa2PQArvatfEcRb9xjagNljL1uXJmFXNzydQ",
+      "projectName": "alphapay",
+      "version": "latest",
+      "cssFilePath": "plasmic/alphapay/plasmic_alphapay.module.css",
+      "components": [
+        {
+          "id": "jLxL9Mh6npEK",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "4wM4qRuToRKiXKZ116596e",
+          "renderModuleFilePath": "plasmic/alphapay/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/alphapay/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "panrLIu3Rq",
+          "name": "Navbar",
+          "type": "managed",
+          "projectId": "4wM4qRuToRKiXKZ116596e",
+          "renderModuleFilePath": "plasmic/alphapay/PlasmicNavbar.tsx",
+          "importSpec": {
+            "modulePath": "Navbar.tsx"
+          },
+          "cssFilePath": "plasmic/alphapay/PlasmicNavbar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "O9wh_20PSc",
+          "name": "NavbarMenuItem",
+          "type": "managed",
+          "projectId": "4wM4qRuToRKiXKZ116596e",
+          "renderModuleFilePath": "plasmic/alphapay/PlasmicNavbarMenuItem.tsx",
+          "importSpec": {
+            "modulePath": "NavbarMenuItem.tsx"
+          },
+          "cssFilePath": "plasmic/alphapay/PlasmicNavbarMenuItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "cAIm2FGQ1q",
+          "name": "AvatarMenu",
+          "type": "managed",
+          "projectId": "4wM4qRuToRKiXKZ116596e",
+          "renderModuleFilePath": "plasmic/alphapay/PlasmicAvatarMenu.tsx",
+          "importSpec": {
+            "modulePath": "AvatarMenu.tsx"
+          },
+          "cssFilePath": "plasmic/alphapay/PlasmicAvatarMenu.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "gU_V28Nrd",
+          "name": "MnOverlay",
+          "type": "managed",
+          "projectId": "4wM4qRuToRKiXKZ116596e",
+          "renderModuleFilePath": "plasmic/alphapay/PlasmicMnOverlay.tsx",
+          "importSpec": {
+            "modulePath": "MnOverlay.tsx"
+          },
+          "cssFilePath": "plasmic/alphapay/PlasmicMnOverlay.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "a0hRfMzIla",
+          "name": "ContentCard",
+          "type": "managed",
+          "projectId": "4wM4qRuToRKiXKZ116596e",
+          "renderModuleFilePath": "plasmic/alphapay/PlasmicContentCard.tsx",
+          "importSpec": {
+            "modulePath": "ContentCard.tsx"
+          },
+          "cssFilePath": "plasmic/alphapay/PlasmicContentCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "6CrWunQZ8t",
+          "name": "ItemsBuyCard",
+          "type": "managed",
+          "projectId": "4wM4qRuToRKiXKZ116596e",
+          "renderModuleFilePath": "plasmic/alphapay/PlasmicItemsBuyCard.tsx",
+          "importSpec": {
+            "modulePath": "ItemsBuyCard.tsx"
+          },
+          "cssFilePath": "plasmic/alphapay/PlasmicItemsBuyCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ousQ4_tjfKM",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "4wM4qRuToRKiXKZ116596e",
+          "renderModuleFilePath": "plasmic/alphapay/PlasmicTextInput.tsx",
+          "importSpec": {
+            "modulePath": "TextInput.tsx"
+          },
+          "cssFilePath": "plasmic/alphapay/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "qFnSZGu4O47",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "4wM4qRuToRKiXKZ116596e",
+          "renderModuleFilePath": "plasmic/alphapay/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/alphapay/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "G7cTYvdFrJ",
+          "name": "InfoCard",
+          "type": "managed",
+          "projectId": "4wM4qRuToRKiXKZ116596e",
+          "renderModuleFilePath": "plasmic/alphapay/PlasmicInfoCard.tsx",
+          "importSpec": {
+            "modulePath": "InfoCard.tsx"
+          },
+          "cssFilePath": "plasmic/alphapay/PlasmicInfoCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "q6dxezWtwg",
+          "name": "MailsignUp",
+          "type": "managed",
+          "projectId": "4wM4qRuToRKiXKZ116596e",
+          "renderModuleFilePath": "plasmic/alphapay/PlasmicMailsignUp.tsx",
+          "importSpec": {
+            "modulePath": "../pages/mailsign-up.tsx"
+          },
+          "cssFilePath": "plasmic/alphapay/PlasmicMailsignUp.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "zllBn591yCV",
+          "name": "OtPmail",
+          "type": "managed",
+          "projectId": "4wM4qRuToRKiXKZ116596e",
+          "renderModuleFilePath": "plasmic/alphapay/PlasmicOtPmail.tsx",
+          "importSpec": {
+            "modulePath": "../pages/otp-mail.tsx"
+          },
+          "cssFilePath": "plasmic/alphapay/PlasmicOtPmail.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "4LUFUJgyfWh",
+          "name": "ManualTransfer",
+          "type": "managed",
+          "projectId": "4wM4qRuToRKiXKZ116596e",
+          "renderModuleFilePath": "plasmic/alphapay/PlasmicManualTransfer.tsx",
+          "importSpec": {
+            "modulePath": "../pages/manual-transfer.tsx"
+          },
+          "cssFilePath": "plasmic/alphapay/PlasmicManualTransfer.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "KRz9vB370W",
+          "name": "MenuSvgrepoCom11SvgIcon",
+          "moduleFilePath": "plasmic/alphapay/icons/PlasmicIcon__MenuSvgrepoCom11Svg.tsx"
+        },
+        {
+          "id": "jV0IVNCMKD",
+          "name": "CloseSvgrepoCom11SvgIcon",
+          "moduleFilePath": "plasmic/alphapay/icons/PlasmicIcon__CloseSvgrepoCom11Svg.tsx"
+        },
+        {
+          "id": "qjRDLg0xeS",
+          "name": "AvatarSvgrepoComsvg2Icon",
+          "moduleFilePath": "plasmic/alphapay/icons/PlasmicIcon__AvatarSvgrepoComsvg2.tsx"
+        },
+        {
+          "id": "Z6N7VeUr2s",
+          "name": "PlusSvgrepoCom2SvgIcon",
+          "moduleFilePath": "plasmic/alphapay/icons/PlasmicIcon__PlusSvgrepoCom2Svg.tsx"
+        },
+        {
+          "id": "c-HtYxoFJO",
+          "name": "MinusSvgrepoCom1SvgIcon",
+          "moduleFilePath": "plasmic/alphapay/icons/PlasmicIcon__MinusSvgrepoCom1Svg.tsx"
+        },
+        {
+          "id": "Kc9rgBWbPop",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/alphapay/icons/PlasmicIcon__Searchsvg.tsx"
+        },
+        {
+          "id": "E36QpBAKQmv",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/alphapay/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "z3BXVpHfGGG",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/alphapay/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "Gj0QWwynkf",
+          "name": "TimerSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/alphapay/icons/PlasmicIcon__TimerSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "nM6BQOQuo4",
+          "name": "ShareBoxSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/alphapay/icons/PlasmicIcon__ShareBoxSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "ZryRL3ob7f",
+          "name": "BackSvgrepoCom1SvgIcon",
+          "moduleFilePath": "plasmic/alphapay/icons/PlasmicIcon__BackSvgrepoCom1Svg.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "YPmVSw7RP",
+          "name": "Bayar.in.png",
+          "filePath": "../public/plasmic/alphapay/images/bayarinpng.png"
+        },
+        {
+          "id": "tlgocLIB5",
+          "name": "Bayar.in.png 2",
+          "filePath": "../public/plasmic/alphapay/images/bayarinpng2.png"
+        },
+        {
+          "id": "xit_g9SXS",
+          "name": "avatar-svgrepo-com.svg",
+          "filePath": "../public/plasmic/alphapay/images/avatarSvgrepoComsvg.svg"
+        },
+        {
+          "id": "3aZFdxUk9",
+          "name": "image",
+          "filePath": "../public/plasmic/alphapay/images/image.png"
+        },
+        {
+          "id": "b9jCV-1JR",
+          "name": "image 2",
+          "filePath": "../public/plasmic/alphapay/images/image2.png"
+        },
+        {
+          "id": "dHz59J4Ye",
+          "name": "image 3",
+          "filePath": "../public/plasmic/alphapay/images/image3.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "5NxeQ3Pfbd",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "xEPdzIDTZVDZk",
+        "name": "Screen",
+        "projectId": "4wM4qRuToRKiXKZ116596e",
+        "contextFilePath": "plasmic/alphapay/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.186",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.186/dist/plasmic.schema.json"
+}

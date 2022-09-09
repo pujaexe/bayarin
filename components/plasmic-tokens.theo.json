@@ -1,0 +1,189 @@
+{
+  "props": [
+    {
+      "name": "Black",
+      "type": "color",
+      "value": "#000000",
+      "category": "color",
+      "meta": {
+        "projectId": "4wM4qRuToRKiXKZ116596e",
+        "id": "efPS-BymV"
+      }
+    },
+    {
+      "name": "Blue",
+      "type": "color",
+      "value": "#2873FF",
+      "category": "color",
+      "meta": {
+        "projectId": "4wM4qRuToRKiXKZ116596e",
+        "id": "JV_B1nl8c"
+      }
+    },
+    {
+      "name": "Dark-grey",
+      "type": "color",
+      "value": "#151419CC",
+      "category": "color",
+      "meta": {
+        "projectId": "4wM4qRuToRKiXKZ116596e",
+        "id": "uf_61LoWS"
+      }
+    },
+    {
+      "name": "Dark-grey2",
+      "type": "color",
+      "value": "#232227",
+      "category": "color",
+      "meta": {
+        "projectId": "4wM4qRuToRKiXKZ116596e",
+        "id": "ySVclHc78"
+      }
+    },
+    {
+      "name": "Dark-grey3",
+      "type": "color",
+      "value": "#545358",
+      "category": "color",
+      "meta": {
+        "projectId": "4wM4qRuToRKiXKZ116596e",
+        "id": "PHzks3faD"
+      }
+    },
+    {
+      "name": "Green",
+      "type": "color",
+      "value": "#38E876",
+      "category": "color",
+      "meta": {
+        "projectId": "4wM4qRuToRKiXKZ116596e",
+        "id": "UOAOqhNw0"
+      }
+    },
+    {
+      "name": "Grey",
+      "type": "color",
+      "value": "#65646B",
+      "category": "color",
+      "meta": {
+        "projectId": "4wM4qRuToRKiXKZ116596e",
+        "id": "vrpCxxfVS"
+      }
+    },
+    {
+      "name": "Light-Grey",
+      "type": "color",
+      "value": "#9C9BA2",
+      "category": "color",
+      "meta": {
+        "projectId": "4wM4qRuToRKiXKZ116596e",
+        "id": "gcImrDKD2"
+      }
+    },
+    {
+      "name": "Orange",
+      "type": "color",
+      "value": "#F96928",
+      "category": "color",
+      "meta": {
+        "projectId": "4wM4qRuToRKiXKZ116596e",
+        "id": "-VOZSEKbk"
+      }
+    },
+    {
+      "name": "Red",
+      "type": "color",
+      "value": "#FC4344",
+      "category": "color",
+      "meta": {
+        "projectId": "4wM4qRuToRKiXKZ116596e",
+        "id": "jCO17HssB"
+      }
+    },
+    {
+      "name": "White",
+      "type": "color",
+      "value": "#FFFFFF",
+      "category": "color",
+      "meta": {
+        "projectId": "4wM4qRuToRKiXKZ116596e",
+        "id": "wvjBXYJra"
+      }
+    },
+    {
+      "name": "Yellow",
+      "type": "color",
+      "value": "#FFA520",
+      "category": "color",
+      "meta": {
+        "projectId": "4wM4qRuToRKiXKZ116596e",
+        "id": "SMNzrWKug"
+      }
+    },
+    {
+      "name": "max-width",
+      "type": "spacing",
+      "value": "50rem",
+      "category": "spacing",
+      "meta": {
+        "projectId": "4wM4qRuToRKiXKZ116596e",
+        "id": "1HPOCL6Jy"
+      }
+    },
+    {
+      "name": "nav-max-width",
+      "type": "spacing",
+      "value": "80rem",
+      "category": "spacing",
+      "meta": {
+        "projectId": "4wM4qRuToRKiXKZ116596e",
+        "id": "h2pyZL3v8"
+      }
+    },
+    {
+      "name": "space0",
+      "type": "spacing",
+      "value": "0px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "4wM4qRuToRKiXKZ116596e",
+        "id": "wp5Q1Gov6"
+      }
+    },
+    {
+      "name": "space1",
+      "type": "spacing",
+      "value": "12px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "4wM4qRuToRKiXKZ116596e",
+        "id": "_fIPDH-wy"
+      }
+    },
+    {
+      "name": "space2",
+      "type": "spacing",
+      "value": "24px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "4wM4qRuToRKiXKZ116596e",
+        "id": "ydJ_QzM70"
+      }
+    },
+    {
+      "name": "space3",
+      "type": "spacing",
+      "value": "32px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "4wM4qRuToRKiXKZ116596e",
+        "id": "2FcyDrHAS"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}

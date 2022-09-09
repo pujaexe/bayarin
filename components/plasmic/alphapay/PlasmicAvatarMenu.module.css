@@ -1,0 +1,49 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  max-width: 100%;
+  position: relative;
+  padding: 0px;
+  border-width: 0px;
+  border-style: none;
+}
+.root:focus-within {
+  outline: none;
+}
+.mnOverlay:global(.__wab_instance) {
+  position: absolute;
+  top: 80%;
+  left: auto;
+  right: 0px;
+  display: none;
+}
+.mnOverlayisOpen:global(.__wab_instance) {
+  display: flex;
+}
+.root:focus-within .mnOverlay:global(.__wab_instance) {
+  display: flex;
+  outline: none;
+}
+.root:active .mnOverlay:global(.__wab_instance) {
+  display: flex;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  border: 2px solid var(--token-wvjBXYJra);
+}
+.root:hover .svg {
+  border-color: var(--token-JV_B1nl8c);
+}
+.root:active .svg {
+  border-color: var(--token-JV_B1nl8c);
+}

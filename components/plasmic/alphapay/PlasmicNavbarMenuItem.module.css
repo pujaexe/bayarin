@@ -1,0 +1,58 @@
+.root {
+  color: var(--token-wvjBXYJra);
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right: auto;
+  position: relative;
+  width: auto;
+  display: inline-flex;
+  flex-direction: row;
+  font-weight: 500;
+  flex-row-gap: 0px;
+  align-items: stretch;
+  justify-content: flex-start;
+  cursor: pointer;
+  padding: 24px 16px;
+}
+.root:focus-within {
+  outline: none;
+}
+.slotTargetItemisActive {
+  font-weight: 700;
+  color: var(--token-JV_B1nl8c);
+}
+.root:hover .slotTargetItem {
+  font-weight: 700;
+  color: var(--token-JV_B1nl8c);
+}
+.root:focus-within .slotTargetItem > *,
+.root:focus-within .slotTargetItem > :global(.__wab_slot) > *,
+.root:focus-within
+  .slotTargetItem
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > *,
+.root:focus-within
+  .slotTargetItem
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > *,
+.root:focus-within .slotTargetItem > picture > img,
+.root:focus-within .slotTargetItem > :global(.__wab_slot) > picture > img,
+.root:focus-within
+  .slotTargetItem
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > picture
+  > img,
+.root:focus-within
+  .slotTargetItem
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  outline: none;
+}
